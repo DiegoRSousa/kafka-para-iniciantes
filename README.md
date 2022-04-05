@@ -4,7 +4,6 @@ iniciar zookeeper
 iniciar kafka
     kafka-server-start C:\kafka\kafka_2.12-2.4.0\config\server.properties
 
-
 topicos kafka
     listar
         kafka-topics --bootstrap-server localhost:9092 --list
