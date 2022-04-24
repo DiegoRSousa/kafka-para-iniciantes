@@ -35,3 +35,8 @@ kafka-console-consumer --bootstrap-server localhost:9092 --topic teste
 ```
 kafka-topics --bootstrap-server localhost:9092 --delete --topic teste
 ```
+
+#### exibir grupos
+```
+kafka-consumer-groups.bat --bootstrap-server localhost:9092 --list
+```
